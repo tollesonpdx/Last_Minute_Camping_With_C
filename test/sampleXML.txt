@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resultset amenity="4005" count="7" lengthOfStay="5" pstate="CO"
+ resultType="campgrounds" siteType="2001">
+   <result contractID="KOA" contractType="PRIVATE"
+    facilityID="191502" facilityName="Alamosa KOA"
+    faciltyPhoto="/photos/details/koa_191502_1.jpg"
+    latitude="37.4744444" longitude="-105.7986111" sitesWithAmps="Y" sitesWithPetsAllowed="Y"
+    sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront="" state="CO"/>
+   <result contractID="KOA" contractType="PRIVATE"
+    facilityID="190902" facilityName="Cotopaxi / Arkansas River KOA"
+    faciltyPhoto="/photos/details/koa_190902_1.jpg"
+    latitude="38.3783333" longitude="-105.6675" sitesWithAmps="Y" sitesWithPetsAllowed="Y"
+    sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront="" state="CO"/>
+   <result contractID="KOA" contractType="PRIVATE"
+    facilityID="190308" facilityName="Cripple Creek / Colorado Springs W. KOA"
+    faciltyPhoto="/photos/details/koa_190308_1.jpg"
+    latitude="38.7744444" longitude="-105.1175" sitesWithAmps="Y" sitesWithPetsAllowed="Y"
+    sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront="" state="CO"/>
+   <result contractID="KOA" contractType="PRIVATE"
+    facilityID="193652" facilityName="Gunnison KOA"
+    faciltyPhoto="/photos/details/koa_193652_1.jpg"
+    latitude="38.5308333" longitude="-106.9452778" sitesWithAmps="Y" sitesWithPetsAllowed="Y"
+    sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront="" state="CO"/>
+   <result contractID="KOA" contractType="PRIVATE"
+    facilityID="190306" facilityName="Limon KOA"
+    faciltyPhoto="/photos/details/koa_190306_1.jpg"
+    latitude="39.2647222" longitude="-103.6730556" sitesWithAmps="Y" sitesWithPetsAllowed="Y"
+    sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront="" state="CO"/>
+   <result contractID="KOA" contractType="PRIVATE"
+    facilityID="190305" facilityName="Royal Gorge / Canon City KOA"
+    faciltyPhoto="/photos/details/koa_190305_1.jpg"
+    latitude="38.4902778" longitude="-105.3286111" sitesWithAmps="Y" sitesWithPetsAllowed="Y"
+    sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront="" state="CO"/>
+   <result contractID="NRSO" contractType="FEDERAL"
+    facilityID="70685" facilityName="PAINTED ROCKS (CO)"
+    faciltyPhoto="/photos/details/nrso_70685_1.jpg"
+    latitude="39.0844444" longitude="-105.1052778" sitesWithAmps="N" sitesWithPetsAllowed="N"
+    sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="" state="CO"/>
+</resultset>
+

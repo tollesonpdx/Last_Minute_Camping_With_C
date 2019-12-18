@@ -1,0 +1,482 @@
+log entry: (null)
+usercity = p
+userstate = p
+userzip = NULL
+userlat = NULL
+userlong = NULL
+datatype = NULL
+
+log entry: 2019-02-09 17:47:33
+usercity = p
+userstate = p
+userzip = NULL
+userlat = NULL
+userlong = NULL
+datatype = NULL
+
+log entry: (null)
+usercity = p
+userstate = p
+userzip = NULL
+userlat = NULL
+userlong = NULL
+datatype = NULL
+
+log entry: (null)
+usercity = o
+userstate = o
+userzip = NULL
+userlat = NULL
+userlong = NULL
+datatype = NULL
+
+log entry: 2019-02-09 17:53:07
+usercity = m
+userstate = m
+userzip = NULL
+userlat = NULL
+userlong = NULL
+datatype = NULL
+
+log entry: 2019-02-09 18:28:52
+userLocation = Portland,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 18:30:10
+userLocation = Portland,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 18:30:10
+userLocation = Eugene,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 18:34:44
+userLocation = Portland,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 18:34:44
+userLocation = Eugene,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 18:35:19
+userLocation = Portland,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 18:35:19
+userLocation = Eugene,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 18:35:19
+userLocation = Prosper,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 21:52:46
+userLocation = Dallas,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 21:52:46
+userLocation = Dallas,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 22:00:09
+userLocation = Dallas,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 22:09:15
+userLocation = Seattle,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 22:09:15
+userLocation = Dallas,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Seattle,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Gresham,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 22:44:05
+userLocation = Dallas,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Seattle,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Gresham,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Chicago, IL
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 22:44:51
+userLocation = Dallas,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Seattle,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Gresham,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Chicago, IL
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Frisco, TX
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-09 22:52:56
+userLocation = Dallas,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Seattle,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Gresham,
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Chicago, IL
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Frisco, TX
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+userLocation = Mars, MI
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-15 17:00:36
+userLocation = Chicago, IL
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-16 12:33:36
+userLocation = Anchorage, AK
+userlat = NULL
+userlng = NULL
+datatype = NULL
+
+log entry: 2019-02-16 13:14:26
+userLocation = Anchorage, AK
+
+userLocation = TestA, B
+
+log entry: 2019-02-16 13:24:38
+userLocation = Anchorage,+AK
+
+userLocation = TestA,+B
+
+userLocation = A,+TestB
+
+log entry: 2019-02-16 13:29:55
+userLocation = Anchorage,+AK
+
+log entry: 2019-02-16 15:03:44
+userLocation = Portland, OR
+buffer data:
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Portland",
+               "short_name" : "Portland",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Multnomah County",
+               "short_name" : "Multnomah County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Oregon",
+               "short_name" : "OR",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Portland, OR, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.65288049999999,
+                  "lng" : -122.472024
+               },
+               "southwest" : {
+                  "lat" : 45.4325358,
+                  "lng" : -122.8367493
+               }
+            },
+            "location" : {
+               "lat" : 45.5122308,
+               "lng" : -122.6587185
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.65288049999999,
+                  "lng" : -122.472024
+               },
+               "southwest" : {
+                  "lat" : 45.4325358,
+                  "lng" : -122.8367493
+               }
+            }
+         },
+         "place_id" : "ChIJJ3SpfQsLlVQRkYXR9ua5Nhw",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+
+log entry: 2019-02-16 15:06:07
+userLocation = Portland, OR
+buffer data:
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Portland",
+               "short_name" : "Portland",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Multnomah County",
+               "short_name" : "Multnomah County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Oregon",
+               "short_name" : "OR",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Portland, OR, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.65288049999999,
+                  "lng" : -122.472024
+               },
+               "southwest" : {
+                  "lat" : 45.4325358,
+                  "lng" : -122.8367493
+               }
+            },
+            "location" : {
+               "lat" : 45.5122308,
+               "lng" : -122.6587185
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.65288049999999,
+                  "lng" : -122.472024
+               },
+               "southwest" : {
+                  "lat" : 45.4325358,
+                  "lng" : -122.8367493
+               }
+            }
+         },
+         "place_id" : "ChIJJ3SpfQsLlVQRkYXR9ua5Nhw",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+
+userLocation = Salem, OR
+buffer data:
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Salem",
+               "short_name" : "Salem",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Marion County",
+               "short_name" : "Marion County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Oregon",
+               "short_name" : "OR",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Salem, OR, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.0123409,
+                  "lng" : -122.9337039
+               },
+               "southwest" : {
+                  "lat" : 44.853642,
+                  "lng" : -123.1227109
+               }
+            },
+            "location" : {
+               "lat" : 44.9428975,
+               "lng" : -123.0350963
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.0123409,
+                  "lng" : -122.9337039
+               },
+               "southwest" : {
+                  "lat" : 44.853642,
+                  "lng" : -123.1227109
+               }
+            }
+         },
+         "place_id" : "ChIJY5xLvPz-v1QRwlcDj-ApNPk",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+
+log entry: 2019-02-18 20:41:49
+log entry: 2019-02-18 20:51:25
+log entry: 2019-02-18 20:54:28
+log entry: 2019-02-18 20:57:59
+log entry: 2019-02-18 21:00:07
+log entry: 2019-02-18 21:02:15
+userLocation = Portland, OR
+log entry: 2019-02-18 21:46:20
+log entry: 2019-02-18 21:48:50
+log entry: 2019-02-18 21:49:30
+log entry: 2019-02-18 21:49:54
+log entry: 2019-02-18 21:50:32
+log entry: 2019-02-18 21:51:04
+log entry: 2019-02-18 21:51:38
+log entry: 2019-02-18 21:52:07
+userLocation = Portland, OR
+log entry: 2019-02-18 21:53:22
+userLocation = Portland, OR
+log entry: 2019-02-18 21:54:50
+userLocation = Portland, OR
+log entry: 2019-02-18 21:55:22
+userLocation = Portland, OR
+log entry: 2019-02-18 21:57:06
+userLocation = Portland, OR
+log entry: 2019-02-19 07:32:09
+userLocation = Portland, OR
+log entry: 2019-02-19 07:36:50
+userLocation = Portland, OR
+userLocation = Salem, OR
+log entry: 2019-02-19 07:37:23
+userLocation = Portland, OR
+userLocation = Salem, OR
+log entry: 2019-02-19 07:37:33
+userLocation = Portland, OR
+log entry: 2019-02-19 07:40:11
+userLocation = Portland, OR
+log entry: 2019-02-19 07:44:01
+userLocation = Portland, OR
+log entry: 2019-02-19 07:44:33
+userLocation = Portland, OR
+log entry: 2019-02-19 07:45:37
+userLocation = Portland, OR
+log entry: 2019-02-19 20:07:14
+userLocation = make
+log entry: 2019-02-19 20:07:44
+userLocation = Portland, OR
+log entry: 2019-02-19 20:08:12
+log entry: 2019-02-19 20:16:30
+log entry: 2019-02-19 20:17:30
+log entry: 2019-02-19 20:18:35
+userLocation = Portland, OR
+log entry: 2019-02-19 20:22:41
+log entry: 2019-02-19 20:34:07
+log entry: 2019-02-19 21:17:03
+log entry: 2019-02-19 21:21:00
+log entry: 2019-02-20 17:07:19
+log entry: 2019-02-20 17:15:51
+log entry: 2019-02-20 17:18:31

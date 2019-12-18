@@ -1,0 +1,275 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld",
+        {
+            "wx": "https://api.weather.gov/ontology#",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "Feature",
+    "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+            {
+                "type": "Point",
+                "coordinates": [
+                    -122.66397000000001,
+                    45.505509400000001
+                ]
+            },
+            {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.68191210000001,
+                            45.513776300000004
+                        ],
+                        [
+                            -122.67575360000001,
+                            45.492929500000002
+                        ],
+                        [
+                            -122.6460311,
+                            45.497240400000003
+                        ],
+                        [
+                            -122.6521833,
+                            45.518087400000006
+                        ],
+                        [
+                            -122.68191210000001,
+                            45.513776300000004
+                        ]
+                    ]
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "updated": "2019-03-08T23:01:37+00:00",
+        "units": "us",
+        "forecastGenerator": "BaselineForecastGenerator",
+        "generatedAt": "2019-03-09T00:28:32+00:00",
+        "updateTime": "2019-03-08T23:01:37+00:00",
+        "validTimes": "2019-03-08T17:00:00+00:00/P7DT19H",
+        "elevation": {
+            "value": 60.960000000000001,
+            "unitCode": "unit:m"
+        },
+        "periods": [
+            {
+                "number": 1,
+                "name": "This Afternoon",
+                "startTime": "2019-03-08T16:00:00-08:00",
+                "endTime": "2019-03-08T18:00:00-08:00",
+                "isDaytime": true,
+                "temperature": 42,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 mph",
+                "windDirection": "NW",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=medium",
+                "shortForecast": "Chance Rain Showers",
+                "detailedForecast": "A chance of rain showers. Mostly cloudy, with a high near 42. Northwest wind around 5 mph. Chance of precipitation is 40%."
+            },
+            {
+                "number": 2,
+                "name": "Tonight",
+                "startTime": "2019-03-08T18:00:00-08:00",
+                "endTime": "2019-03-09T06:00:00-08:00",
+                "isDaytime": false,
+                "temperature": 32,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 6 mph",
+                "windDirection": "NNE",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/fog?size=medium",
+                "shortForecast": "Slight Chance Rain Showers then Patchy Fog",
+                "detailedForecast": "A slight chance of rain showers before 7pm, then patchy fog. Mostly cloudy, with a low around 32. North northeast wind 2 to 6 mph. Chance of precipitation is 30%."
+            },
+            {
+                "number": 3,
+                "name": "Saturday",
+                "startTime": "2019-03-09T06:00:00-08:00",
+                "endTime": "2019-03-09T18:00:00-08:00",
+                "isDaytime": true,
+                "temperature": 47,
+                "temperatureUnit": "F",
+                "temperatureTrend": "falling",
+                "windSpeed": "6 to 22 mph",
+                "windDirection": "ENE",
+                "icon": "https://api.weather.gov/icons/land/day/fog/wind_sct?size=medium",
+                "shortForecast": "Patchy Fog then Mostly Sunny",
+                "detailedForecast": "Patchy fog before 7am. Mostly sunny. High near 47, with temperatures falling to around 45 in the afternoon. East northeast wind 6 to 22 mph, with gusts as high as 35 mph."
+            },
+            {
+                "number": 4,
+                "name": "Saturday Night",
+                "startTime": "2019-03-09T18:00:00-08:00",
+                "endTime": "2019-03-10T06:00:00-07:00",
+                "isDaytime": false,
+                "temperature": 29,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "10 to 22 mph",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/night/wind_skc?size=medium",
+                "shortForecast": "Clear",
+                "detailedForecast": "Clear, with a low around 29. Northeast wind 10 to 22 mph, with gusts as high as 35 mph."
+            },
+            {
+                "number": 5,
+                "name": "Sunday",
+                "startTime": "2019-03-10T06:00:00-07:00",
+                "endTime": "2019-03-10T18:00:00-07:00",
+                "isDaytime": true,
+                "temperature": 48,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "10 to 22 mph",
+                "windDirection": "ENE",
+                "icon": "https://api.weather.gov/icons/land/day/wind_skc?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny, with a high near 48. East northeast wind 10 to 22 mph, with gusts as high as 35 mph."
+            },
+            {
+                "number": 6,
+                "name": "Sunday Night",
+                "startTime": "2019-03-10T18:00:00-07:00",
+                "endTime": "2019-03-11T06:00:00-07:00",
+                "isDaytime": false,
+                "temperature": 30,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "12 to 22 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/night/wind_skc?size=medium",
+                "shortForecast": "Clear",
+                "detailedForecast": "Clear, with a low around 30."
+            },
+            {
+                "number": 7,
+                "name": "Monday",
+                "startTime": "2019-03-11T06:00:00-07:00",
+                "endTime": "2019-03-11T18:00:00-07:00",
+                "isDaytime": true,
+                "temperature": 51,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "7 to 13 mph",
+                "windDirection": "SSE",
+                "icon": "https://api.weather.gov/icons/land/day/bkn/rain,70?size=medium",
+                "shortForecast": "Partly Sunny then Light Rain Likely",
+                "detailedForecast": "Rain likely after 5pm. Partly sunny, with a high near 51. Chance of precipitation is 70%."
+            },
+            {
+                "number": 8,
+                "name": "Monday Night",
+                "startTime": "2019-03-11T18:00:00-07:00",
+                "endTime": "2019-03-12T06:00:00-07:00",
+                "isDaytime": false,
+                "temperature": 39,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "6 to 13 mph",
+                "windDirection": "SSW",
+                "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
+                "shortForecast": "Rain",
+                "detailedForecast": "Rain before 5am, then rain showers. Cloudy, with a low around 39."
+            },
+            {
+                "number": 9,
+                "name": "Tuesday",
+                "startTime": "2019-03-12T06:00:00-07:00",
+                "endTime": "2019-03-12T18:00:00-07:00",
+                "isDaytime": true,
+                "temperature": 48,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "7 mph",
+                "windDirection": "WSW",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers?size=medium",
+                "shortForecast": "Rain Showers",
+                "detailedForecast": "Rain showers. Cloudy, with a high near 48."
+            },
+            {
+                "number": 10,
+                "name": "Tuesday Night",
+                "startTime": "2019-03-12T18:00:00-07:00",
+                "endTime": "2019-03-13T06:00:00-07:00",
+                "isDaytime": false,
+                "temperature": 37,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 7 mph",
+                "windDirection": "WSW",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers?size=medium",
+                "shortForecast": "Rain Showers Likely",
+                "detailedForecast": "Rain showers likely before 5am. Mostly cloudy, with a low around 37."
+            },
+            {
+                "number": 11,
+                "name": "Wednesday",
+                "startTime": "2019-03-13T06:00:00-07:00",
+                "endTime": "2019-03-13T18:00:00-07:00",
+                "isDaytime": true,
+                "temperature": 49,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 mph",
+                "windDirection": "WSW",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers?size=medium",
+                "shortForecast": "Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers between 11am and 5pm. Mostly cloudy, with a high near 49."
+            },
+            {
+                "number": 12,
+                "name": "Wednesday Night",
+                "startTime": "2019-03-13T18:00:00-07:00",
+                "endTime": "2019-03-14T06:00:00-07:00",
+                "isDaytime": false,
+                "temperature": 34,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "3 mph",
+                "windDirection": "SE",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": "Mostly cloudy, with a low around 34."
+            },
+            {
+                "number": 13,
+                "name": "Thursday",
+                "startTime": "2019-03-14T06:00:00-07:00",
+                "endTime": "2019-03-14T18:00:00-07:00",
+                "isDaytime": true,
+                "temperature": 53,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "3 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/day/bkn/rain_showers?size=medium",
+                "shortForecast": "Partly Sunny then Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers after 5pm. Partly sunny, with a high near 53."
+            },
+            {
+                "number": 14,
+                "name": "Thursday Night",
+                "startTime": "2019-03-14T18:00:00-07:00",
+                "endTime": "2019-03-15T06:00:00-07:00",
+                "isDaytime": false,
+                "temperature": 36,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "3 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers?size=medium",
+                "shortForecast": "Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a low around 36."
+            }
+        ]
+    }
+}

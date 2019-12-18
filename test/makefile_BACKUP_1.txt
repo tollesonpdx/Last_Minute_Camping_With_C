@@ -1,0 +1,14 @@
+CC = gcc
+
+OBJS = test_sqlite.o sqlite3.o f_sqlstmts.o
+
+all: a.out
+
+a.out: $(OBJS)
+	$(CC) -o a.out $(OBJS) -lm -ldl -lpthread
+
+.c.o:
+	$(CC) $(CFLAGS) -g -Wall -c $<
+
+clean:
+	rm -f a.out *.o core
