@@ -12,6 +12,8 @@ The original goal of this project was to create a tool that allows a user to, ba
 
 During the development of the tool, unexpected limitations arose so the end-goal was adjusted. The current iteration of the project strives to allow a user to provide their location, anticipated camping dates, and maximum driving range, for which the tool then produces a list of reservable campsites within range and the associated weather forecast. The original project goals are not forgotten and are slated for future development.
 
+The final report submitted for grade contains some interesting inforation, including the presentation slides. It is available [HERE](Report/TollesonCapstoneReport.pdf).
+
 ## Tools &amp; Data Sources Utilized
 
 For this project, I elected to use the following tools:
@@ -24,6 +26,8 @@ For this project, I elected to use the following tools:
 - Reserve America API
 - National Weather Service API
 - GFZ German Research Centre for Geosciences
+
+Attributions are detailed in the code itself.
 
 ## Data Structures
 
